@@ -2,14 +2,12 @@
  * Created by user848 on 16.01.2018.
  */
 /*Стрелка на главной странице*/
-$('.arrow').click(function(){
+$('.arrow').click(function () {
 
-    $('.products').toggle('slow')
-    $( this ).toggleClass( "highlight" );
+    $('.products').toggle('slow');
+    $(this).toggleClass("highlight");
 
-})
-
-
+});
 
 
 /*Кнопка наверх*/
